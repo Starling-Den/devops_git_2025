@@ -1,0 +1,17 @@
+#не вносить .venv .idea .vscode
+.idea/
+.venv/
+.vscode/
+
+#Файлы с расширением pass и файлы с расширением conf и .env
+*.pass
+*.conf
+.env
+
+#Логи
+*.log
+
+#Временные файлы
+*.tmp
+*.swp
+temp/*
